@@ -25,7 +25,7 @@ const COURSE_DATA = {
           title: "Princípios fundamentais",
           tagline: "A carta do propósito e as 7 virtudes que te sustentam",
           image: "https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=900&q=80&auto=format&fit=crop",
-          videoUrl: "",
+          videoUrl: "https://www.youtube.com/embed/uQ5eTTKJYZE",
           summary: "Antes de qualquer técnica ou ferramenta, é preciso plantar princípios sólidos. Esta aula te apresenta a carta do propósito e as 7 virtudes que vão sustentar todo o método Rotina Focada na sua vida.",
           insights: [
             "Princípios são bússolas — quando o caminho confunde, eles indicam o norte.",
@@ -57,7 +57,7 @@ const COURSE_DATA = {
           title: "Entender isso te fará querer ter uma rotina focada",
           tagline: "O ponto de virada que muda tudo",
           image: "https://images.unsplash.com/photo-1490806843957-31f4c9a91c65?w=900&q=80&auto=format&fit=crop",
-          videoUrl: "https://www.youtube.com/embed/uQ5eTTKJYZE",
+          videoUrl: "",
           summary: "Antes de qualquer técnica ou ferramenta, é preciso entender por que uma rotina focada funciona — e por que sem ela, mesmo a melhor agenda do mundo desmorona. Esta aula muda sua percepção sobre o que é, de fato, ter foco.",
           content: `
             <div class="callout-soft">🩷 <strong>As pessoas bem-sucedidas sabem aonde querem ir na vida e têm um plano para chegar lá.</strong></div>
