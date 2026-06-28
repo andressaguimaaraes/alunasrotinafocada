@@ -24,7 +24,7 @@ const COURSE_DATA = {
           number: 1,
           title: "Entender isso te fará querer ter uma rotina focada",
           tagline: "O ponto de virada que muda tudo",
-          videoUrl: "https://www.youtube.com/embed/EiIV-ccYMlA",
+          videoUrl: "https://www.youtube.com/embed/uQ5eTTKJYZE",
           summary: "Antes de qualquer técnica ou ferramenta, é preciso entender por que uma rotina focada funciona — e por que sem ela, mesmo a melhor agenda do mundo desmorona. Esta aula muda sua percepção sobre o que é, de fato, ter foco.",
           content: `
             <div class="callout-soft">🩷 <strong>As pessoas bem-sucedidas sabem aonde querem ir na vida e têm um plano para chegar lá.</strong></div>
