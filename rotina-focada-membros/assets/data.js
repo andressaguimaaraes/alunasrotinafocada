@@ -24,7 +24,7 @@ const COURSE_DATA = {
           number: 1,
           title: "Princípios fundamentais",
           tagline: "A carta do propósito e as 7 virtudes que te sustentam",
-          image: "https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=900&q=80&auto=format&fit=crop",
+          image: "images/aulas/principios-afirmacoes.jpg",
           videoUrl: "https://www.youtube.com/embed/uQ5eTTKJYZE",
           summary: "Antes de qualquer técnica ou ferramenta, é preciso plantar princípios sólidos. Esta aula te apresenta a carta do propósito e as 7 virtudes que vão sustentar todo o método Rotina Focada na sua vida.",
           insights: [
@@ -56,7 +56,7 @@ const COURSE_DATA = {
           number: 2,
           title: "Entender isso te fará querer ter uma rotina focada",
           tagline: "O ponto de virada que muda tudo",
-          image: "https://images.unsplash.com/photo-1518611012118-696072aa579a?w=900&q=80&auto=format&fit=crop",
+          image: "images/aulas/selfie-sorriso.jpg",
           videoUrl: "",
           summary: "Antes de qualquer técnica ou ferramenta, é preciso entender por que uma rotina focada funciona — e por que sem ela, mesmo a melhor agenda do mundo desmorona. Esta aula muda sua percepção sobre o que é, de fato, ter foco.",
           content: `
@@ -151,7 +151,7 @@ const COURSE_DATA = {
           number: 3,
           title: "Ajuste seu cérebro para ser disciplinado e aplicar",
           tagline: "Disciplina não é força — é arquitetura",
-          image: "https://images.unsplash.com/photo-1455390582262-044cdead277a?w=900&q=80&auto=format&fit=crop",
+          image: "images/aulas/selfie-corpo-livros.jpg",
           videoUrl: "",
           summary: "A disciplina que dura não vem de motivação. Vem de pequenos ajustes no ambiente e na forma como você se vê. Aqui você aprende a criar as condições para que a ação certa seja a mais fácil.",
           insights: [
@@ -182,7 +182,7 @@ const COURSE_DATA = {
           number: 4,
           title: "Como colher resultados reais na sua rotina",
           tagline: "Da ação ao resultado mensurável",
-          image: "https://images.unsplash.com/photo-1490127252417-7c393f993ee4?w=900&q=80&auto=format&fit=crop",
+          image: "images/aulas/relogio-unhas.jpg",
           videoUrl: "",
           summary: "Trabalhar muito não é o mesmo que colher resultados. Esta aula te mostra a ponte entre execução diária e progresso visível — para que seu esforço apareça no espelho da realidade.",
           insights: [
@@ -213,7 +213,7 @@ const COURSE_DATA = {
           number: 5,
           title: "Como escolher o projeto que mudará seus resultados",
           tagline: "A escolha que define o ano",
-          image: "https://images.unsplash.com/photo-1531403009284-440f080d1e12?w=900&q=80&auto=format&fit=crop",
+          image: "images/aulas/mapa-rotina.jpg",
           videoUrl: "",
           summary: "Você não precisa fazer tudo. Precisa escolher bem. Esta aula te ensina a identificar O projeto certo — aquele que, se for executado, move todas as outras áreas da sua vida.",
           insights: [
@@ -257,7 +257,7 @@ const COURSE_DATA = {
           number: 1,
           title: "Rotinas fundamentais",
           tagline: "As 6 rotinas que sustentam um dia produtivo de verdade",
-          image: "https://images.unsplash.com/photo-1499209974431-9dddcece7f88?w=900&q=80&auto=format&fit=crop",
+          image: "images/aulas/rotinas-fundamentais.jpg",
           videoUrl: "",
           summary: "Antes de aprender técnicas avançadas, você precisa instalar as 6 rotinas-base que sustentam qualquer dia produtivo. Esta aula apresenta a estrutura que torna o método sustentável.",
           insights: [
@@ -289,7 +289,7 @@ const COURSE_DATA = {
           number: 2,
           title: "Maturação ativa",
           tagline: "Deixe as ideias amadurecerem trabalhando",
-          image: "https://images.unsplash.com/photo-1543353071-873f17a7a088?w=900&q=80&auto=format&fit=crop",
+          image: "images/aulas/xicara-borboleta.jpg",
           videoUrl: "",
           summary: "Maturação ativa é a técnica de plantar uma ideia, um problema ou um conteúdo na mente e voltar a ele em ciclos. É como o cérebro forma conexões profundas — e não no esforço bruto de uma sessão só.",
           insights: [
@@ -320,7 +320,7 @@ const COURSE_DATA = {
           number: 3,
           title: "Como fazer blocos de foco",
           tagline: "A unidade básica da rotina focada",
-          image: "https://images.unsplash.com/photo-1611532736597-de2d4265fba3?w=900&q=80&auto=format&fit=crop",
+          image: "images/aulas/relogio-treino.jpg",
           videoUrl: "",
           summary: "O bloco de foco é o tijolo da sua rotina. Aprenda a estruturar sessões protegidas de 60 a 90 minutos onde você entrega mais do que muitas pessoas entregam em um dia inteiro de trabalho.",
           insights: [
@@ -351,7 +351,7 @@ const COURSE_DATA = {
           number: 4,
           title: "Como criar um sistema de anotações funcional",
           tagline: "Anotar não é guardar — é pensar",
-          image: "https://images.unsplash.com/photo-1455390582262-044cdead277a?w=900&q=80&auto=format&fit=crop",
+          image: "images/aulas/anotacoes-mesa.jpg",
           videoUrl: "",
           summary: "Quem anota tudo, lembra de nada. Esta aula te ensina a anotar de forma que cada ideia tenha um lugar e seja recuperável quando você precisar dela. Anotação funcional é a base do conhecimento aplicado.",
           insights: [
@@ -382,7 +382,7 @@ const COURSE_DATA = {
           number: 5,
           title: "Como colocar o conhecimento em prática",
           tagline: "Da teoria à transformação",
-          image: "https://images.unsplash.com/photo-1493612276216-ee3925520721?w=900&q=80&auto=format&fit=crop",
+          image: "images/aulas/diario-cafe.jpg",
           videoUrl: "",
           summary: "Saber muito e não aplicar é a doença mais comum do estudante moderno. Aqui você aprende o protocolo simples para transformar conteúdo em ação — para que o que você estuda hoje mude algo amanhã.",
           insights: [
@@ -426,7 +426,7 @@ const COURSE_DATA = {
           number: 1,
           title: "Como definir projetos e metas",
           tagline: "O filtro do propósito: só entra o que te leva pra lá",
-          image: "https://images.unsplash.com/photo-1611532736597-de2d4265fba3?w=900&q=80&auto=format&fit=crop",
+          image: "images/aulas/mapa-rotina.jpg",
           videoUrl: "",
           summary: "Toda meta precisa passar por um filtro: ela me aproxima do meu propósito? Esta aula te ensina o método que eu uso pra escolher onde investir energia — e o que recusar com elegância.",
           insights: [
@@ -458,7 +458,7 @@ const COURSE_DATA = {
           number: 2,
           title: "Transformando ideias soltas em planos concretos",
           tagline: "Da nuvem ao papel",
-          image: "https://images.unsplash.com/photo-1531403009284-440f080d1e12?w=900&q=80&auto=format&fit=crop",
+          image: "images/aulas/organizacao-estudos.jpg",
           videoUrl: "",
           summary: "Toda grande conquista começa como uma ideia vaga. Esta aula te ensina o caminho de transformar 'um dia eu quero' em 'esta semana eu faço' — o método para tirar planos da imaginação e colocar no calendário.",
           insights: [
@@ -489,7 +489,7 @@ const COURSE_DATA = {
           number: 3,
           title: "Percebendo padrões em diferentes áreas",
           tagline: "Você é um sistema só",
-          image: "https://images.unsplash.com/photo-1499209974431-9dddcece7f88?w=900&q=80&auto=format&fit=crop",
+          image: "images/aulas/anotacoes-mesa.jpg",
           videoUrl: "",
           summary: "Sua saúde, suas finanças, seus relacionamentos e sua carreira estão conectados. Esta aula te ensina a enxergar padrões que se repetem em diferentes áreas — e a resolver na raiz, não no sintoma.",
           insights: [
@@ -520,7 +520,7 @@ const COURSE_DATA = {
           number: 4,
           title: "Definindo mini tarefas rumo ao seu objetivo",
           tagline: "Decomposição: a arte do passo possível",
-          image: "https://images.unsplash.com/photo-1518611012118-696072aa579a?w=900&q=80&auto=format&fit=crop",
+          image: "images/aulas/diario-cafe.jpg",
           videoUrl: "",
           summary: "Objetivos grandes paralisam. Mini tarefas executam. Esta aula te ensina a quebrar qualquer meta em pedaços tão pequenos que se torna impossível não começar.",
           insights: [
@@ -564,7 +564,7 @@ const COURSE_DATA = {
           number: 1,
           title: "Como fazer um planejamento eficaz",
           tagline: "Blocos de foco, habit tracker e serenidade para imprevistos",
-          image: "https://images.unsplash.com/photo-1611532736597-de2d4265fba3?w=900&q=80&auto=format&fit=crop",
+          image: "images/aulas/relogio-treino.jpg",
           videoUrl: "",
           summary: "Planejamento eficaz não é encher a agenda — é proteger o que importa e ter espaço pra respirar. Aqui você aprende a unir blocos de foco, habit tracker e flexibilidade pros dias que tudo muda.",
           insights: [
@@ -596,7 +596,7 @@ const COURSE_DATA = {
           number: 2,
           title: "Como sustentar hábitos saudáveis e produtivos",
           tagline: "Da semana ao ano: a fórmula da constância",
-          image: "https://images.unsplash.com/photo-1490127252417-7c393f993ee4?w=900&q=80&auto=format&fit=crop",
+          image: "images/aulas/habitos-atomicos.jpg",
           videoUrl: "",
           summary: "Começar é fácil. Sustentar é arte. Esta aula te dá os mecanismos para que um hábito sobreviva à fase mais perigosa — a quarta semana, quando a novidade acaba e a realidade aparece.",
           insights: [
@@ -627,7 +627,7 @@ const COURSE_DATA = {
           number: 3,
           title: "Desvicie do celular",
           tagline: "Recupere a sua atenção da palma da sua mão",
-          image: "https://images.unsplash.com/photo-1493612276216-ee3925520721?w=900&q=80&auto=format&fit=crop",
+          image: "images/aulas/cafe-manha-aesthetic.jpg",
           videoUrl: "",
           summary: "O celular é a maior força anti-rotina-focada da nossa geração. Esta aula te dá o protocolo passo a passo para reconquistar sua atenção sem precisar virar eremita digital.",
           insights: [
@@ -658,7 +658,7 @@ const COURSE_DATA = {
           number: 4,
           title: "Protocolo ARR para ter constância",
           tagline: "Aceitar, Resetar, Retomar",
-          image: "https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=900&q=80&auto=format&fit=crop",
+          image: "images/aulas/principios-afirmacoes.jpg",
           videoUrl: "",
           summary: "O que separa quem termina o ano com hábitos vivos de quem terminou com hábitos mortos é o que faz depois do tropeço. O Protocolo ARR é o método curto e simples para nunca mais abandonar um hábito por causa de uma queda.",
           insights: [
@@ -702,7 +702,7 @@ const COURSE_DATA = {
           number: 1,
           title: "Como faço minha organização de estudos e leituras",
           tagline: "Tudo o que aprendo vira aplicação, conteúdo e ação",
-          image: "https://images.unsplash.com/photo-1531403009284-440f080d1e12?w=900&q=80&auto=format&fit=crop",
+          image: "images/aulas/organizacao-estudos.jpg",
           videoUrl: "",
           summary: "Estudar muito sem aplicar é colecionar conhecimento que não muda nada. Aqui eu te mostro o sistema que eu uso pra transformar TUDO o que aprendo em aplicação concreta, conteúdo pra ensinar e ação na vida real.",
           insights: [
@@ -734,7 +734,7 @@ const COURSE_DATA = {
           number: 2,
           title: "O sistema de armazenamento: Caixas de Repertório (Notion)",
           tagline: "Onde o conhecimento mora e cresce",
-          image: "https://images.unsplash.com/photo-1517842645767-c639042777db?w=900&q=80&auto=format&fit=crop",
+          image: "images/aulas/sistema-notion.jpg",
           videoUrl: "",
           summary: "Aqui você aprende a montar no Notion um sistema de Caixas de Repertório — o lugar onde tudo que você aprende vira ativo recuperável. É a sua segunda memória, organizada por tema e pronta para ser consultada quando precisar.",
           insights: [
@@ -765,7 +765,7 @@ const COURSE_DATA = {
           number: 3,
           title: "Como eu uso IA para estudar",
           tagline: "Seu copiloto de aprendizado",
-          image: "https://images.unsplash.com/photo-1517842645767-c639042777db?w=900&q=80&auto=format&fit=crop",
+          image: "images/aulas/mapa-rotina.jpg",
           videoUrl: "",
           summary: "A IA pode dobrar sua velocidade de aprendizado — se usada com método. Nesta aula você descobre como transformar ferramentas como ChatGPT e Claude em professores particulares disponíveis 24h, e como evitar o erro de virar consumidora passiva.",
           insights: [
@@ -796,7 +796,7 @@ const COURSE_DATA = {
           number: 4,
           title: "Como fazer um diário",
           tagline: "A prática mais subestimada que existe",
-          image: "https://images.unsplash.com/photo-1456735190827-d1262f71b8a3?w=900&q=80&auto=format&fit=crop",
+          image: "images/aulas/diario-cafe.jpg",
           videoUrl: "",
           summary: "Diário não é desabafo. Diário é pensar com clareza. Esta aula te ensina o método para que 10 minutos por dia escrevendo virem o seu maior ativo de auto-conhecimento — e de tomada de decisão.",
           insights: [
@@ -840,7 +840,7 @@ const COURSE_DATA = {
           number: 1,
           title: "Sistema completo no Notion pronto para usar",
           tagline: "Você recebe a chave da casa",
-          image: "https://images.unsplash.com/photo-1517842645767-c639042777db?w=900&q=80&auto=format&fit=crop",
+          image: "images/aulas/sistema-notion.jpg",
           videoUrl: "",
           summary: "Esta aula te entrega o template completo do Notion — o mesmo que sustenta minha rotina hoje. Aqui eu te mostro a estrutura, como duplicar, como adaptar e como começar a usar nas próximas 24 horas.",
           insights: [
@@ -871,7 +871,7 @@ const COURSE_DATA = {
           number: 2,
           title: "Organização por áreas: rotinas, metas, estudos, finanças e mais",
           tagline: "Tudo no mesmo lugar — finalmente",
-          image: "https://images.unsplash.com/photo-1499209974431-9dddcece7f88?w=900&q=80&auto=format&fit=crop",
+          image: "images/aulas/anotacoes-mesa.jpg",
           videoUrl: "",
           summary: "Aqui eu te guio por cada uma das áreas do sistema: como abrir, como atualizar, como conectar uma com a outra. Você sai desta aula sabendo onde cada coisa fica e como manter o sistema vivo.",
           insights: [
@@ -902,7 +902,7 @@ const COURSE_DATA = {
           number: 3,
           title: "Habit Tracker integrado para acompanhar sua constância",
           tagline: "Veja sua constância virar gráfico",
-          image: "https://images.unsplash.com/photo-1611532736597-de2d4265fba3?w=900&q=80&auto=format&fit=crop",
+          image: "images/aulas/relogio-unhas.jpg",
           videoUrl: "",
           summary: "O Habit Tracker é o coração do sistema. Aqui você aprende a configurar, marcar hábitos, ler o calendário e usar os relatórios automáticos para tomar decisões. Você vai amar ver a constância virando linha.",
           insights: [
@@ -933,7 +933,7 @@ const COURSE_DATA = {
           number: 4,
           title: "Roteiro de 4 semanas para implementar o método",
           tagline: "Seu plano de pouso",
-          image: "https://images.unsplash.com/photo-1490127252417-7c393f993ee4?w=900&q=80&auto=format&fit=crop",
+          image: "images/aulas/cafe-manha-aesthetic.jpg",
           videoUrl: "",
           summary: "Esta é a aula final: o roteiro semana a semana para você sair daqui e implementar o método na vida real. 4 semanas, 4 focos, 4 entregas. Quando terminar, a Rotina Focada vai estar funcionando — não na teoria, mas na sua rotina.",
           insights: [
