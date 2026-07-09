@@ -49,7 +49,32 @@ const COURSE_DATA = {
             }
           ],
           diagram: "principios-virada",
-          materials: []
+          materials: [
+            {
+              icon: "📄",
+              name: "PDF da aula",
+              meta: "Material completo para download",
+              url: "pdfs/aula-1-1-principios-fundamentais.pdf"
+            },
+            {
+              icon: "✏️",
+              name: "Template de exercícios",
+              meta: "Aplicar passo a passo (PDF)",
+              url: "pdfs/aula-1-1-exercicios.pdf"
+            },
+            {
+              icon: "🧠",
+              name: "Mapa mental da aula",
+              meta: "Abrir no MindMeister",
+              url: "https://mm.tt/map/4027092742?t=75C3h527zf"
+            },
+            {
+              icon: "📚",
+              name: "Livros recomendados",
+              meta: "Leituras para aprofundar",
+              url: "livros-recomendados-1-1.html"
+            }
+          ]
         },
         {
           id: "1-2",
@@ -57,7 +82,7 @@ const COURSE_DATA = {
           title: "Entender isso te fará querer ter uma rotina focada",
           tagline: "O ponto de virada que muda tudo",
           image: "images/aulas/selfie-sorriso.jpg",
-          videoUrl: "",
+          videoUrl: "https://www.youtube.com/embed/Bfy1V7tmXbs",
           summary: "Antes de qualquer técnica ou ferramenta, é preciso entender por que uma rotina focada funciona — e por que sem ela, mesmo a melhor agenda do mundo desmorona. Esta aula muda sua percepção sobre o que é, de fato, ter foco.",
           content: `
             <div class="callout-soft">🩷 <strong>As pessoas bem-sucedidas sabem aonde querem ir na vida e têm um plano para chegar lá.</strong></div>
@@ -132,6 +157,12 @@ const COURSE_DATA = {
           ],
           diagram: "principios-virada",
           materials: [
+            {
+              icon: "🧠",
+              name: "Mapa mental da aula",
+              meta: "Abrir no MindMeister",
+              url: "https://mm.tt/map/4035576040?t=MipLMdsoEV"
+            },
             {
               icon: "📄",
               name: "PDF da aula",
