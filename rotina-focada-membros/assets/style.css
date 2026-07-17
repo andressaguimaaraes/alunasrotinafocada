@@ -2592,3 +2592,221 @@ body.dark-dashboard {
   }
 }
 
+
+/* ============================================
+   PLANNER ROTINA FOCADA — Capa estilo Notion
+   ============================================ */
+
+.planner-hero {
+  max-width: 1080px;
+  margin: 40px auto 20px;
+  padding: 0 20px;
+}
+
+.planner-card {
+  background: #ffffff;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 20px 60px rgba(212, 71, 111, 0.10), 0 4px 16px rgba(0,0,0,0.04);
+  border: 1px solid #f2e4ea;
+}
+
+/* Capa aesthetic no topo */
+.planner-cover {
+  height: 220px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  border-bottom: 1px solid #f2e4ea;
+}
+
+.planner-cover-icon {
+  position: absolute;
+  bottom: -30px;
+  left: 40px;
+  width: 66px;
+  height: 66px;
+  background: linear-gradient(135deg, #d4476f, #b8365a);
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 34px;
+  box-shadow: 0 10px 24px rgba(212, 71, 111, 0.35);
+  border: 3px solid #ffffff;
+}
+
+.planner-body {
+  padding: 50px 44px 40px;
+}
+
+.planner-title {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 44px;
+  font-weight: 600;
+  color: #2a1a20;
+  line-height: 1.15;
+  letter-spacing: -0.5px;
+  margin: 0 0 22px;
+}
+
+.planner-title em {
+  font-style: italic;
+  color: #d4476f;
+}
+
+/* Callout amarelo claro estilo Notion */
+.planner-callout {
+  background: #fdf9f0;
+  border: 1px solid #f2ead4;
+  border-radius: 6px;
+  padding: 16px 20px;
+  display: flex;
+  gap: 12px;
+  align-items: flex-start;
+  margin-bottom: 22px;
+}
+
+.planner-callout-icon {
+  font-size: 20px;
+  line-height: 1.4;
+  flex-shrink: 0;
+}
+
+.planner-callout p {
+  margin: 0;
+  font-size: 15px;
+  line-height: 1.55;
+  color: #2a1a20;
+}
+
+.planner-intro {
+  font-size: 15.5px;
+  line-height: 1.7;
+  color: #2a1a20;
+  margin: 0 0 8px;
+}
+
+.planner-intro strong em {
+  font-style: italic;
+  font-weight: 600;
+  color: #2a1a20;
+}
+
+.planner-intro-emoji {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 17px;
+  line-height: 1.6;
+  color: #5a3a45;
+  margin: 0 0 30px;
+}
+
+.planner-intro-emoji em {
+  font-style: italic;
+}
+
+/* Separator + section title */
+.planner-section-title {
+  border-top: 1px solid #f2e4ea;
+  padding-top: 26px;
+  margin-bottom: 18px;
+}
+
+.planner-section-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: #f5f2ef;
+  color: #2a1a20;
+  padding: 6px 14px;
+  border-radius: 999px;
+  font-size: 13.5px;
+  font-weight: 500;
+}
+
+/* Grid de botões-pílula estilo Notion */
+.planner-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  margin-bottom: 30px;
+}
+
+.planner-btn {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: #ffffff;
+  border: 1px solid #ebe0e6;
+  border-radius: 999px;
+  padding: 10px 18px;
+  text-decoration: none;
+  color: #2a1a20;
+  font-size: 14px;
+  font-weight: 500;
+  transition: all 0.18s ease;
+  box-shadow: 0 1px 3px rgba(212, 71, 111, 0.03);
+}
+
+.planner-btn:hover {
+  background: #fde8ee;
+  border-color: #d4476f;
+  color: #d4476f;
+  transform: translateY(-1px);
+  box-shadow: 0 6px 16px rgba(212, 71, 111, 0.14);
+}
+
+.planner-btn-icon {
+  font-size: 15px;
+  line-height: 1;
+  flex-shrink: 0;
+}
+
+.planner-btn-label {
+  flex: 1;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* Botão CTA grande */
+.planner-open-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  background: linear-gradient(135deg, #d4476f, #b8365a);
+  color: #ffffff;
+  padding: 15px 30px;
+  border-radius: 999px;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: 0.3px;
+  box-shadow: 0 12px 30px rgba(212, 71, 111, 0.30);
+  transition: transform 0.2s, box-shadow 0.2s;
+  margin-top: 6px;
+}
+
+.planner-open-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 16px 36px rgba(212, 71, 111, 0.42);
+}
+
+/* Responsivo */
+@media (max-width: 900px) {
+  .planner-grid { grid-template-columns: repeat(2, 1fr); }
+  .planner-body { padding: 44px 28px 32px; }
+  .planner-title { font-size: 34px; }
+  .planner-cover { height: 170px; }
+  .planner-cover-icon { left: 24px; width: 56px; height: 56px; font-size: 28px; }
+}
+
+@media (max-width: 560px) {
+  .planner-hero { padding: 0 12px; margin-top: 24px; }
+  .planner-grid { grid-template-columns: 1fr; }
+  .planner-body { padding: 40px 20px 28px; }
+  .planner-title { font-size: 28px; }
+  .planner-cover { height: 140px; }
+  .planner-btn { padding: 12px 16px; }
+}
