@@ -352,7 +352,7 @@ const COURSE_DATA = {
           title: "Como fazer blocos de foco",
           tagline: "A unidade básica da rotina focada",
           image: "images/aulas/relogio-treino.jpg",
-          videoUrl: "",
+          videoUrl: "https://www.loom.com/embed/9ff547f0a6f34065a65290bac9ec11e1",
           summary: "O bloco de foco é o tijolo da sua rotina. Aprenda a estruturar sessões protegidas de 60 a 90 minutos onde você entrega mais do que muitas pessoas entregam em um dia inteiro de trabalho.",
           insights: [
             "Um bloco de foco real tem início, meio e fim definidos — sem 'só olhar o celular'.",
@@ -375,7 +375,15 @@ const COURSE_DATA = {
               body: "Faça hoje 1 bloco de 60 minutos sem distrações. Ao final, escreva 1 frase sobre como foi e o que você entregou."
             }
           ],
-          diagram: "blocos-foco"
+          diagram: "blocos-foco",
+          materials: [
+            {
+              icon: "📄",
+              name: "PDF da aula — Blocos de Foco",
+              meta: "Ciência, fluxo dos 6 passos e 4 exercícios pra preencher",
+              url: "pdfs/aula-2-3-blocos-de-foco.pdf"
+            }
+          ]
         },
         {
           id: "2-4",
